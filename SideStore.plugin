@@ -1,0 +1,9 @@
+#!name=SideStore Loopback
+#!desc=SideStore local loopback via Loon
+
+[General]
+include-tun = 10.7.0.1/32
+ipv6-vif = off
+
+[IP Rewrite]
+10.7.0.1 = reflect
